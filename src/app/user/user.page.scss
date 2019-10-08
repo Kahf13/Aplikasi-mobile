@@ -1,0 +1,82 @@
+.welcome-card img {
+    max-height: 35vh;
+    overflow: hidden;
+  }
+  
+  .login
+  {
+    width: 400px;
+    margin: 15px auto;
+    font-size: 50px;
+  }
+  
+  .hd
+  {
+    background: #fc7d7d;
+    padding: 20px;
+    font-size: 1.9cm;
+    font-weight: normal;
+    font-family: 'Source Sans Pro';
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .login p
+  {
+    padding: 12px;
+  }
+  
+  .login-container
+  {
+    background: #96ecfd;
+    padding: 12px;
+    box-shadow: rgb(230, 224, 224);
+  }
+  
+  .login input
+  {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 15px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95cm;
+    border-radius: 6px;
+    
+  }
+  
+  .login input[type="email"],
+  .login input [type="password"]
+  {
+    background: #fff;
+    border-color: rgb(19, 18, 18);
+    color: rgb(20, 20, 20);
+    
+  }
+  
+  .login input[type="email"]:focus,
+  .login input[type="password"]:focus
+  {
+    border-color: rgb(170, 168, 168);
+  }
+  
+  .login input[type="submit"]
+  {
+    background: #6fcf49;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .login input[type="submit"]:hover
+  {
+    background: #b81919;
+  }
+  
+  .login input[type="submit"]:focus
+  {
+    border-color: #c4ddf8;
+  }
